@@ -2,7 +2,8 @@
 
 Get up and running with 
 * Express.js
-* PostgreSQL
+* PostgreSQL 
+* JSON data sources 
 * Frontend 
 
 with a clone. 

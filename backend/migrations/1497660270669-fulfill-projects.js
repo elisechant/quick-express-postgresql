@@ -2,7 +2,7 @@
 const path = require('path');
 const db = require('./db');
 
-const data = require('./data/projects');
+const data = require('./data/projects2');
 
 
 exports.up = function(next) {
