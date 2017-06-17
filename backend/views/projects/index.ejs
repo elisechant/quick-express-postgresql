@@ -1,6 +1,6 @@
 <% include ./../partials/head %>
 <h1>Detail</h1>
 <ul><% projects.forEach(function(project) { %>
-  <li><%= project.name %></li>
+  <li><a href="/projects/<%= project.id %>"><%= project.name %></a></li>
 <% }) %></ul>
 <% include ./../partials/foot %>
