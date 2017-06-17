@@ -9,9 +9,9 @@ const pg = require('pg');
 
 const dbMiddleware = (poolsize = 10) => {
   pg.defaults.poolSize = poolsize;
+  const db = pgp(process.env.DB_CONNECT);
 
   return (req, res, next) => {
-    const db = pgp(process.env.DB_CONNECT);
     req.db = db;
     next();
   }
