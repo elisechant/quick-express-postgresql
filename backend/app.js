@@ -21,7 +21,7 @@ app.set('etag', true);
 
 // view engine
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+app.set('view engine', 'ejs');
 // Object.assign(app.locals, helpers);
 
 
